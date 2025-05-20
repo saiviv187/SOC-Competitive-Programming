@@ -3,7 +3,7 @@
 ## Duration: 21 May - 27 May
 
 ### 📘 Reading Tasks:
-- Complete the **first 4 chapters** from the [Competitive Programmer's Handbook](https://github.com/harshul997/SOC-Competitive-Programming/blob/main/Competitive%20Programmers%20Handbook%20-%20Antti%20Laaksonen.pdf).
+- Complete the **first 4 chapters** from the [Competitive Programmer's Handbook](https://github.com/harshul997/SOC-Competitive-Programming/blob/main/Resources/Competitive%20Programmers%20Handbook%20-%20Antti%20Laaksonen.pdf).
 - Create accounts on:
   - [CSES](https://cses.fi/)
   - [Codeforces](https://codeforces.com/)
