@@ -1,6 +1,6 @@
 # Conquering Competitive Programming - Week 1
 
-## Duration: 26 May - 2 June
+## Duration: 21 May - 27 May
 
 ### 📘 Reading Tasks:
 - Complete the **first 4 chapters** from the [Competitive Programmer's Handbook](https://github.com/harshul997/SOC-Competitive-Programming/blob/main/Competitive%20Programmers%20Handbook%20-%20Antti%20Laaksonen.pdf).
