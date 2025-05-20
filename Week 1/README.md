@@ -31,15 +31,15 @@
 
 ### 🏋️ Practice Questions:
 1. [Increasing Array](https://cses.fi/problemset/task/1094)  
-   [🔗 Solution](https://www.geeksforgeeks.org/cses-solutions-increasing-array/)
+   <!--[🔗 Solution](https://www.geeksforgeeks.org/cses-solutions-increasing-array/)-->
 2. [Towers of Hanoi](https://cses.fi/problemset/task/2165)  
-   [🔗 Solution](https://www.geeksforgeeks.org/cses-solutions-tower-of-hanoi/)
+ <!--  [🔗 Solution](https://www.geeksforgeeks.org/cses-solutions-tower-of-hanoi/)-->
 3. [Coin Piles](https://cses.fi/problemset/task/1754)  
-   [🔗 Solution](https://www.geeksforgeeks.org/cses-solutions-coin-piles/)
+ <!--  [🔗 Solution](https://www.geeksforgeeks.org/cses-solutions-coin-piles/)-->
 4. [Walking Master](https://codeforces.com/problemset/problem/1806/A)  
-   [🔗 Solution](https://codeforces.com/blog/entry/114048)
+  <!-- [🔗 Solution](https://codeforces.com/blog/entry/114048)-->
 5. [Two Knights](https://cses.fi/problemset/task/1072)  
-   [🔗 Solution](https://www.geeksforgeeks.org/cses-solutions-two-knights/)
+  <!-- [🔗 Solution](https://www.geeksforgeeks.org/cses-solutions-two-knights/)-->
 
 ---
 
