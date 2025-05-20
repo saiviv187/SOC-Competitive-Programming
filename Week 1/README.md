@@ -40,6 +40,7 @@
   <!-- [🔗 Solution](https://codeforces.com/blog/entry/114048)-->
 5. [Two Knights](https://cses.fi/problemset/task/1072)  
   <!-- [🔗 Solution](https://www.geeksforgeeks.org/cses-solutions-two-knights/)-->
+You can solve the problems under the sections 'Introductory Problems' and 'Sorting and Searching' in CSES to practice more!
 
 ---
 
