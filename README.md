@@ -16,6 +16,7 @@ Data Structures
 4. Learned how "Priority Queues" work and used them in greedy and shortest path problems.
 
 Dynamic Programming (DP)
+
  Solved some basic DP problems like:
     - Fibonacci numbers using memoization
     - 0/1 Knapsack
