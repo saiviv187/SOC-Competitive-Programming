@@ -1,4 +1,4 @@
-  Competitive Programming – Learning Summary (Week 1 to Week 4)
+  Competitive Programming – Learning Summary (Week 1 to Week 3)
 
  What I’ve Learned So Far
 
