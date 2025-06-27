@@ -27,10 +27,11 @@ Dynamic Programming (DP)
 
 1. Learned how to handle tricky test cases like empty input, big values, and edge situations.
 
-2. Got better at **debugging** by printing values and checking small examples to find what’s wrong.
+2. Got better at debugging by printing values and checking small examples to find what’s wrong.
 
-3. Started doing a **dry run** on simple test cases before submitting, to make sure the logic works.
+3. Started doing a dry run on simple test cases before submitting, to make sure the logic works.
 
-4. Learned to notice when my code is too slow and how to improve it to run faster.
+4. Practiced checking the time complexity early and tried to improve slow, brute-force solutions into faster ones.
+
 
  
