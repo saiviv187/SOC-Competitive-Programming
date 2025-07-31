@@ -1,33 +1,63 @@
-#include <bits/stdc++.h>
+You said:
+#include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
-int main(){
-    int n, x;
-    cin >> n >> x;
-    vector<int> nums(n);
-    for (int i = 0; i < n; i++) {
-        cin >> nums[i];
-    }
-    vector<pair<int,int>>num_index_map;
-    for(int i=0;i<n;i++){
-        num_index_map.push_back({nums[i],i+1});
-    }
-    sort(num_index_map.begin(),num_index_map.end());
+bool fn(const vector<pair<int,int>> &arr, int target, int &idx1, int &idx2) {
+    int l = 0;
+    int r = (int)arr.size() - 1;
 
-    for(int i=0;i<n-2;i++){
-        int j=i+1;
-        int k=n-1;
-        while(j<k){
-            int total=num_index_map[i].first+num_index_map[j].first+num_index_map[k].first;
-            if(total==x){
-                cout << num_index_map[i].second << " " << num_index_map[j].second << " " << num_index_map[k].second;
-                return 0;
-            }else if(total >x){
-                k--;
-            }else{
-                j++;
-            }
+    while (l < r) {
+        int sum = arr[l].first + arr[r].first;
+        if (sum == target) {
+            idx1 = arr[l].second + 1;
+            idx2 = arr[r].second + 1;
+            return true;
+        }
+        else if (sum < target) {
+            l++;
+        } else {
+            r--;
         }
     }
-    cout << "IMPOSSIBLE";
+    return false;
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n, target;
+    cin >> n >> target;
+
+    vector<pair<int,int>> vals(n);
+    for (int i = 0; i < n; i++) {
+        int x; cin >> x;
+        vals[i] = {x, i};
+    }
+
+    sort(vals.begin(), vals.end());
+
+    bool found = false;
+    int a = -1, b = -1, c = -1;
+
+    for (int i = 0; i < n - 1; i++) {
+        int rem = target - vals[i].first;
+        vector<pair<int,int>> sub(vals.begin() + i + 1, vals.end());
+
+        if (fn(sub, rem, a, b)) {
+            c = vals[i].second + 1;
+            found = true;
+            break;
+        }
+    }
+
+    if (found) {
+        cout << c << ' ' << a << ' ' << b << '\n';
+    } else {
+        cout << "IMPOSSIBLE\n";
+    }
+
+    return 0;
 }
